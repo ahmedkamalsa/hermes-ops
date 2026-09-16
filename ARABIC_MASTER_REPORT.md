@@ -1198,3 +1198,15 @@ Cloudflare:
 - لم يتم نقل repos فعليًا لأن `hermes-ops` والاختصارات والسكربتات تعتمد على المسارات الحالية.
 - موقع Netlify الحالي يجب تحديثه من `vs/site` أو pipeline مطابق، وليس من `alforaijboard/site` أو `alforaij-research-assistant/frontend`.
 - تم إرجاع Netlify إلى deploy السليم `6a707818a2fdbb28edf9267e`.
+
+
+## تحديث 2026-09-16 - إصلاح رقم 182 في بحث الفريج
+
+- المشروع الصحيح للواجهة هو `D:\\foraj_social\\287\\alforaij-research-assistant` وليس مستودع اللوحة القديم وحده.
+- سبب ظهور `182`: الواجهة كانت تعرض لقطة `frontend/static-data/health.json` حيث `localRecords=182` إذا فشل مسار `live-db/Supabase`.
+- التعديل المنفذ: تم تحديث `frontend/app.js` ليستدعي API الفريج الحي مباشرة بواسطة `fetchLiveAlforaijCount()` ويحدث نص الحالة بشكل مستقل عن Supabase.
+- العداد الحي وقت الاختبار: `320` إعلان من API الفريج (`transactionType` 1..5) مع `1000` من لقطة المصادر الخارجية = `1320`.
+- التحقق: `node --check frontend/app.js` ناجح، واختبار متصفح محلي عرض `الفريج 320`، واختبار GitHub Pages عرض نفس النتيجة.
+- الرفع: commit `b787454` إلى `https://github.com/ahmedkamalsa/alforaij.git` ونجح workflow `Deploy alforaijboard Pages`.
+- الرابط المؤكد الآن: `https://ahmedkamalsa.github.io/alforaijboard/` يعرض `الفريج 320`.
+- ملاحظة Netlify: `https://alforaijboard.netlify.app/` لا يبدو مربوطا بنفس النشر الحالي والبيئة المحلية لا تحتوي `NETLIFY_AUTH_TOKEN` أو `NETLIFY_SITE_ID` ولا Netlify CLI، لذلك النشر المؤكد الآن هو GitHub Pages.
