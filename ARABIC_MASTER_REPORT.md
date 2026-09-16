@@ -1172,3 +1172,29 @@ Cloudflare:
 1. الحفاظ على موقع Netlify كما كان وعدم تغيير تصميمه.
 2. تحديث بياناته فقط من المصدر المحلي المطابق له (`vs/site`) أو من نفس pipeline الذي أنشأ deploy الأصلي.
 3. عدم استخدام `alforaijboard/site` أو `alforaij-research-assistant/frontend` كبديل فوق هذا الرابط إلا إذا طلبت ذلك صراحة.
+
+## تنظيم المشاريع داخل 287 وتصحيح النشر - 2026-09-16
+
+تم إنشاء تصنيف آمن داخل المجلد الرئيسي بدون نقل المشاريع التشغيلية حتى لا تنكسر السكربتات:
+
+- `01_ALFORAIJ_PLATFORM/`: منصة الفريج، ويشير إلى `alforaij-research-assistant`.
+- `02_ALFORAIJBOARD_DASHBOARD/`: اللوحات، ويشير إلى `alforaijboard` و`vs`.
+- `03_HERMES_OPS/`: Hermes Ops، ويشير إلى `hermes-ops`.
+
+تمت إضافة ملف فهرسة شامل:
+
+- `PROJECTS_STRUCTURE_2026-09-16.md`
+
+تم تنظيف الجذر بنقل ملفات النشر المؤقتة إلى:
+
+- `_archive/netlify-deploy-zips/`
+
+ونقل سجلات/تقارير التشغيل المؤقتة إلى:
+
+- `_archive/logs/`
+
+قرار مهم:
+
+- لم يتم نقل repos فعليًا لأن `hermes-ops` والاختصارات والسكربتات تعتمد على المسارات الحالية.
+- موقع Netlify الحالي يجب تحديثه من `vs/site` أو pipeline مطابق، وليس من `alforaijboard/site` أو `alforaij-research-assistant/frontend`.
+- تم إرجاع Netlify إلى deploy السليم `6a707818a2fdbb28edf9267e`.
