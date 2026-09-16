@@ -1,0 +1,383 @@
+{
+  "generated_at": "2026-09-14T18:07:38.501049+00:00",
+  "models": [
+    {
+      "provider": "lmstudio",
+      "model_id": "google/gemma-3-12b",
+      "context_length": null,
+      "tool_calling": null,
+      "reasoning": null,
+      "vision": null,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "local",
+      "timestamp": "2026-09-14T18:07:38.501018+00:00"
+    },
+    {
+      "provider": "lmstudio",
+      "model_id": "hermes-3-llama-3.1-8b",
+      "context_length": null,
+      "tool_calling": null,
+      "reasoning": null,
+      "vision": null,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "local",
+      "timestamp": "2026-09-14T18:07:38.501000+00:00"
+    },
+    {
+      "provider": "lmstudio",
+      "model_id": "qwen3.5-4b",
+      "context_length": null,
+      "tool_calling": null,
+      "reasoning": null,
+      "vision": null,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "local",
+      "timestamp": "2026-09-14T18:07:38.500980+00:00"
+    },
+    {
+      "provider": "lmstudio",
+      "model_id": "text-embedding-mxbai-embed-large-v1",
+      "context_length": null,
+      "tool_calling": null,
+      "reasoning": null,
+      "vision": null,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "local",
+      "timestamp": "2026-09-14T18:07:38.501013+00:00"
+    },
+    {
+      "provider": "lmstudio",
+      "model_id": "text-embedding-nomic-embed-text-v1.5",
+      "context_length": null,
+      "tool_calling": null,
+      "reasoning": null,
+      "vision": null,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "local",
+      "timestamp": "2026-09-14T18:07:38.501008+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "cohere/north-mini-code:free",
+      "context_length": 256000,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481089+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "dots-studio/dots-3-note-preview:free",
+      "context_length": 512000,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.480975+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/gemma-4-26b-a4b-it:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481169+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/gemma-4-31b-it:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481179+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/lyria-3-clip-preview",
+      "context_length": 1048576,
+      "tool_calling": false,
+      "reasoning": false,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481199+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/lyria-3-pro-preview",
+      "context_length": 1048576,
+      "tool_calling": false,
+      "reasoning": false,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481191+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "inclusionai/ling-3.0-flash-fin:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.480956+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "inclusionai/ling-3.0-flash-sante:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.480940+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "inclusionai/ling-3.0-flash-vl:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.480867+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "liquid/lfm-2.5-2.6b:free",
+      "context_length": 65536,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.480991+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nex-agi/nex-n2.5-mini:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.480913+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nex-agi/nex-n2.5-pro:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.480927+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "context_length": 256000,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481139+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481220+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "context_length": 1000000,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481118+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3.5-content-safety:free",
+      "context_length": 128000,
+      "tool_calling": false,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481109+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "context_length": 1000000,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481000+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "openrouter/free",
+      "context_length": 200000,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481313+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "poolside/laguna-s-2.1:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481032+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "poolside/laguna-xs-2.1:free",
+      "context_length": 262144,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": false,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481076+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "thinkingmachines/inkling-small:free",
+      "context_length": 1048576,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481018+00:00"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "thinkingmachines/inkling:free",
+      "context_length": 1048576,
+      "tool_calling": true,
+      "reasoning": true,
+      "vision": true,
+      "price": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "availability": "catalog",
+      "timestamp": "2026-09-14T18:07:38.481051+00:00"
+    }
+  ]
+}

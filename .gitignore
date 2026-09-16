@@ -1,0 +1,16 @@
+logs/
+tmp/
+tmp-*/
+__pycache__/
+*.pyc
+*.pyo
+*.jsonl
+.env
+.env.*
+*.secret
+*.token
+secure-token-storage.json
+auth.json
+node_modules/
+.DS_Store
+Thumbs.db

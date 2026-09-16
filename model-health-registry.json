@@ -1,0 +1,895 @@
+﻿{
+    "updated_at":  "2026-09-16T02:59:02.9730572Z",
+    "models":  {
+                   "lmstudio/google/gemma-3-12b":  {
+                                                       "provider":  "lmstudio",
+                                                       "model_id":  "google/gemma-3-12b",
+                                                       "state":  "HEALTHY",
+                                                       "active":  true,
+                                                       "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                       "current_price":  {
+                                                                             "prompt":  "0",
+                                                                             "completion":  "0"
+                                                                         },
+                                                       "context_length":  null,
+                                                       "capabilities":  {
+                                                                            "tool_calling":  null,
+                                                                            "reasoning":  null,
+                                                                            "vision":  null
+                                                                        },
+                                                       "availability":  "local",
+                                                       "consecutive_failures":  0,
+                                                       "history":  [
+
+                                                                   ],
+                                                       "last_health_check":  "2026-09-14T18:07:38.501049+00:00",
+                                                       "last_success":  "2026-09-14T18:07:38.501049+00:00"
+                                                   },
+                   "lmstudio/hermes-3-llama-3.1-8b":  {
+                                                          "provider":  "lmstudio",
+                                                          "model_id":  "hermes-3-llama-3.1-8b",
+                                                          "state":  "HEALTHY",
+                                                          "active":  true,
+                                                          "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                          "current_price":  {
+                                                                                "prompt":  "0",
+                                                                                "completion":  "0"
+                                                                            },
+                                                          "context_length":  null,
+                                                          "capabilities":  {
+                                                                               "tool_calling":  null,
+                                                                               "reasoning":  null,
+                                                                               "vision":  null
+                                                                           },
+                                                          "availability":  "local",
+                                                          "consecutive_failures":  0,
+                                                          "history":  [
+
+                                                                      ],
+                                                          "last_health_check":  "2026-09-14T18:07:38.501049+00:00",
+                                                          "last_success":  "2026-09-14T18:07:38.501049+00:00"
+                                                      },
+                   "lmstudio/qwen3.5-4b":  {
+                                               "provider":  "lmstudio",
+                                               "model_id":  "qwen3.5-4b",
+                                               "state":  "HEALTHY",
+                                               "active":  true,
+                                               "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                               "current_price":  {
+                                                                     "prompt":  "0",
+                                                                     "completion":  "0"
+                                                                 },
+                                               "context_length":  null,
+                                               "capabilities":  {
+                                                                    "tool_calling":  null,
+                                                                    "reasoning":  null,
+                                                                    "vision":  null
+                                                                },
+                                               "availability":  "local",
+                                               "consecutive_failures":  0,
+                                               "history":  [
+
+                                                           ],
+                                               "last_health_check":  "2026-09-14T18:07:38.501049+00:00",
+                                               "last_success":  "2026-09-14T18:07:38.501049+00:00"
+                                           },
+                   "lmstudio/text-embedding-mxbai-embed-large-v1":  {
+                                                                        "provider":  "lmstudio",
+                                                                        "model_id":  "text-embedding-mxbai-embed-large-v1",
+                                                                        "state":  "HEALTHY",
+                                                                        "active":  true,
+                                                                        "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                        "current_price":  {
+                                                                                              "prompt":  "0",
+                                                                                              "completion":  "0"
+                                                                                          },
+                                                                        "context_length":  null,
+                                                                        "capabilities":  {
+                                                                                             "tool_calling":  null,
+                                                                                             "reasoning":  null,
+                                                                                             "vision":  null
+                                                                                         },
+                                                                        "availability":  "local",
+                                                                        "consecutive_failures":  0,
+                                                                        "history":  [
+
+                                                                                    ],
+                                                                        "last_health_check":  "2026-09-14T18:07:38.501049+00:00",
+                                                                        "last_success":  "2026-09-14T18:07:38.501049+00:00"
+                                                                    },
+                   "lmstudio/text-embedding-nomic-embed-text-v1.5":  {
+                                                                         "provider":  "lmstudio",
+                                                                         "model_id":  "text-embedding-nomic-embed-text-v1.5",
+                                                                         "state":  "HEALTHY",
+                                                                         "active":  true,
+                                                                         "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                         "current_price":  {
+                                                                                               "prompt":  "0",
+                                                                                               "completion":  "0"
+                                                                                           },
+                                                                         "context_length":  null,
+                                                                         "capabilities":  {
+                                                                                              "tool_calling":  null,
+                                                                                              "reasoning":  null,
+                                                                                              "vision":  null
+                                                                                          },
+                                                                         "availability":  "local",
+                                                                         "consecutive_failures":  0,
+                                                                         "history":  [
+
+                                                                                     ],
+                                                                         "last_health_check":  "2026-09-14T18:07:38.501049+00:00",
+                                                                         "last_success":  "2026-09-14T18:07:38.501049+00:00"
+                                                                     },
+                   "openrouter/cohere/north-mini-code:free":  {
+                                                                  "provider":  "openrouter",
+                                                                  "model_id":  "cohere/north-mini-code:free",
+                                                                  "state":  "HEALTHY",
+                                                                  "active":  true,
+                                                                  "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                  "current_price":  {
+                                                                                        "prompt":  "0",
+                                                                                        "completion":  "0"
+                                                                                    },
+                                                                  "context_length":  256000,
+                                                                  "capabilities":  {
+                                                                                       "tool_calling":  true,
+                                                                                       "reasoning":  true,
+                                                                                       "vision":  false
+                                                                                   },
+                                                                  "availability":  "catalog",
+                                                                  "consecutive_failures":  0,
+                                                                  "history":  [
+                                                                                  {
+                                                                                      "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                      "ok":  true,
+                                                                                      "latency_ms":  21741,
+                                                                                      "state":  "HEALTHY",
+                                                                                      "error_class":  ""
+                                                                                  },
+                                                                                  {
+                                                                                      "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                      "ok":  true,
+                                                                                      "latency_ms":  21741,
+                                                                                      "state":  "HEALTHY",
+                                                                                      "error_class":  ""
+                                                                                  },
+                                                                                  {
+                                                                                      "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                      "ok":  true,
+                                                                                      "latency_ms":  21741,
+                                                                                      "state":  "HEALTHY",
+                                                                                      "error_class":  ""
+                                                                                  },
+                                                                                  {
+                                                                                      "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                      "ok":  true,
+                                                                                      "latency_ms":  21741,
+                                                                                      "state":  "HEALTHY",
+                                                                                      "error_class":  ""
+                                                                                  },
+                                                                                  {
+                                                                                      "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                      "ok":  true,
+                                                                                      "latency_ms":  21741,
+                                                                                      "state":  "HEALTHY",
+                                                                                      "error_class":  ""
+                                                                                  }
+                                                                              ],
+                                                                  "last_success":  "2026-09-14T14:37:13.297014+00:00",
+                                                                  "last_health_check":  "2026-09-14T14:37:13.297014+00:00"
+                                                              },
+                   "openrouter/dots-studio/dots-3-note-preview:free":  {
+                                                                           "provider":  "openrouter",
+                                                                           "model_id":  "dots-studio/dots-3-note-preview:free",
+                                                                           "state":  "HEALTHY",
+                                                                           "active":  true,
+                                                                           "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                           "current_price":  {
+                                                                                                 "prompt":  "0",
+                                                                                                 "completion":  "0"
+                                                                                             },
+                                                                           "context_length":  512000,
+                                                                           "capabilities":  {
+                                                                                                "tool_calling":  true,
+                                                                                                "reasoning":  true,
+                                                                                                "vision":  true
+                                                                                            },
+                                                                           "availability":  "catalog",
+                                                                           "consecutive_failures":  0,
+                                                                           "history":  [
+                                                                                           {
+                                                                                               "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                               "ok":  true,
+                                                                                               "latency_ms":  22448,
+                                                                                               "state":  "HEALTHY",
+                                                                                               "error_class":  ""
+                                                                                           },
+                                                                                           {
+                                                                                               "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                               "ok":  true,
+                                                                                               "latency_ms":  22448,
+                                                                                               "state":  "HEALTHY",
+                                                                                               "error_class":  ""
+                                                                                           },
+                                                                                           {
+                                                                                               "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                               "ok":  true,
+                                                                                               "latency_ms":  22448,
+                                                                                               "state":  "HEALTHY",
+                                                                                               "error_class":  ""
+                                                                                           },
+                                                                                           {
+                                                                                               "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                               "ok":  true,
+                                                                                               "latency_ms":  22448,
+                                                                                               "state":  "HEALTHY",
+                                                                                               "error_class":  ""
+                                                                                           },
+                                                                                           {
+                                                                                               "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                               "ok":  true,
+                                                                                               "latency_ms":  22448,
+                                                                                               "state":  "HEALTHY",
+                                                                                               "error_class":  ""
+                                                                                           }
+                                                                                       ],
+                                                                           "last_success":  "2026-09-14T14:37:13.297014+00:00",
+                                                                           "last_health_check":  "2026-09-14T14:37:13.297014+00:00"
+                                                                       },
+                   "openrouter/google/gemma-4-26b-a4b-it:free":  {
+                                                                     "provider":  "openrouter",
+                                                                     "model_id":  "google/gemma-4-26b-a4b-it:free",
+                                                                     "state":  "RATE_LIMITED",
+                                                                     "active":  false,
+                                                                     "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                     "current_price":  {
+                                                                                           "prompt":  "0",
+                                                                                           "completion":  "0"
+                                                                                       },
+                                                                     "context_length":  262144,
+                                                                     "capabilities":  {
+                                                                                          "tool_calling":  true,
+                                                                                          "reasoning":  true,
+                                                                                          "vision":  true
+                                                                                      },
+                                                                     "availability":  "catalog",
+                                                                     "consecutive_failures":  5,
+                                                                     "history":  [
+                                                                                     {
+                                                                                         "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                         "ok":  false,
+                                                                                         "latency_ms":  null,
+                                                                                         "state":  "RATE_LIMITED",
+                                                                                         "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                     },
+                                                                                     {
+                                                                                         "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                         "ok":  false,
+                                                                                         "latency_ms":  null,
+                                                                                         "state":  "RATE_LIMITED",
+                                                                                         "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                     },
+                                                                                     {
+                                                                                         "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                         "ok":  false,
+                                                                                         "latency_ms":  null,
+                                                                                         "state":  "RATE_LIMITED",
+                                                                                         "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                     },
+                                                                                     {
+                                                                                         "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                         "ok":  false,
+                                                                                         "latency_ms":  null,
+                                                                                         "state":  "RATE_LIMITED",
+                                                                                         "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                     },
+                                                                                     {
+                                                                                         "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                         "ok":  false,
+                                                                                         "latency_ms":  null,
+                                                                                         "state":  "RATE_LIMITED",
+                                                                                         "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                     }
+                                                                                 ],
+                                                                     "last_health_check":  "2026-09-14T14:37:13.297014+00:00",
+                                                                     "last_success":  null
+                                                                 },
+                   "openrouter/google/gemma-4-31b-it:free":  {
+                                                                 "provider":  "openrouter",
+                                                                 "model_id":  "google/gemma-4-31b-it:free",
+                                                                 "state":  "RATE_LIMITED",
+                                                                 "active":  false,
+                                                                 "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                 "current_price":  {
+                                                                                       "prompt":  "0",
+                                                                                       "completion":  "0"
+                                                                                   },
+                                                                 "context_length":  262144,
+                                                                 "capabilities":  {
+                                                                                      "tool_calling":  true,
+                                                                                      "reasoning":  true,
+                                                                                      "vision":  true
+                                                                                  },
+                                                                 "availability":  "catalog",
+                                                                 "consecutive_failures":  5,
+                                                                 "history":  [
+                                                                                 {
+                                                                                     "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                     "ok":  false,
+                                                                                     "latency_ms":  null,
+                                                                                     "state":  "RATE_LIMITED",
+                                                                                     "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                 },
+                                                                                 {
+                                                                                     "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                     "ok":  false,
+                                                                                     "latency_ms":  null,
+                                                                                     "state":  "RATE_LIMITED",
+                                                                                     "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                 },
+                                                                                 {
+                                                                                     "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                     "ok":  false,
+                                                                                     "latency_ms":  null,
+                                                                                     "state":  "RATE_LIMITED",
+                                                                                     "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                 },
+                                                                                 {
+                                                                                     "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                     "ok":  false,
+                                                                                     "latency_ms":  null,
+                                                                                     "state":  "RATE_LIMITED",
+                                                                                     "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                 },
+                                                                                 {
+                                                                                     "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                     "ok":  false,
+                                                                                     "latency_ms":  null,
+                                                                                     "state":  "RATE_LIMITED",
+                                                                                     "error_class":  "HTTP Error 429: Too Many Requests"
+                                                                                 }
+                                                                             ],
+                                                                 "last_health_check":  "2026-09-14T14:37:13.297014+00:00",
+                                                                 "last_success":  null
+                                                             },
+                   "openrouter/google/lyria-3-clip-preview":  {
+                                                                  "provider":  "openrouter",
+                                                                  "model_id":  "google/lyria-3-clip-preview",
+                                                                  "state":  "UNKNOWN",
+                                                                  "active":  true,
+                                                                  "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                  "current_price":  {
+                                                                                        "prompt":  "0",
+                                                                                        "completion":  "0"
+                                                                                    },
+                                                                  "context_length":  1048576,
+                                                                  "capabilities":  {
+                                                                                       "tool_calling":  false,
+                                                                                       "reasoning":  false,
+                                                                                       "vision":  true
+                                                                                   },
+                                                                  "availability":  "catalog",
+                                                                  "consecutive_failures":  0,
+                                                                  "history":  [
+
+                                                                              ],
+                                                                  "last_health_check":  null,
+                                                                  "last_success":  null
+                                                              },
+                   "openrouter/google/lyria-3-pro-preview":  {
+                                                                 "provider":  "openrouter",
+                                                                 "model_id":  "google/lyria-3-pro-preview",
+                                                                 "state":  "UNKNOWN",
+                                                                 "active":  true,
+                                                                 "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                 "current_price":  {
+                                                                                       "prompt":  "0",
+                                                                                       "completion":  "0"
+                                                                                   },
+                                                                 "context_length":  1048576,
+                                                                 "capabilities":  {
+                                                                                      "tool_calling":  false,
+                                                                                      "reasoning":  false,
+                                                                                      "vision":  true
+                                                                                  },
+                                                                 "availability":  "catalog",
+                                                                 "consecutive_failures":  0,
+                                                                 "history":  [
+
+                                                                             ],
+                                                                 "last_health_check":  null,
+                                                                 "last_success":  null
+                                                             },
+                   "openrouter/inclusionai/ling-3.0-flash-fin:free":  {
+                                                                          "provider":  "openrouter",
+                                                                          "model_id":  "inclusionai/ling-3.0-flash-fin:free",
+                                                                          "state":  "HEALTHY",
+                                                                          "active":  true,
+                                                                          "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                          "current_price":  {
+                                                                                                "prompt":  "0",
+                                                                                                "completion":  "0"
+                                                                                            },
+                                                                          "context_length":  262144,
+                                                                          "capabilities":  {
+                                                                                               "tool_calling":  true,
+                                                                                               "reasoning":  true,
+                                                                                               "vision":  false
+                                                                                           },
+                                                                          "availability":  "catalog",
+                                                                          "consecutive_failures":  0,
+                                                                          "history":  [
+                                                                                          {
+                                                                                              "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                              "ok":  true,
+                                                                                              "latency_ms":  905,
+                                                                                              "state":  "HEALTHY",
+                                                                                              "error_class":  ""
+                                                                                          },
+                                                                                          {
+                                                                                              "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                              "ok":  true,
+                                                                                              "latency_ms":  905,
+                                                                                              "state":  "HEALTHY",
+                                                                                              "error_class":  ""
+                                                                                          },
+                                                                                          {
+                                                                                              "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                              "ok":  true,
+                                                                                              "latency_ms":  905,
+                                                                                              "state":  "HEALTHY",
+                                                                                              "error_class":  ""
+                                                                                          },
+                                                                                          {
+                                                                                              "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                              "ok":  true,
+                                                                                              "latency_ms":  905,
+                                                                                              "state":  "HEALTHY",
+                                                                                              "error_class":  ""
+                                                                                          },
+                                                                                          {
+                                                                                              "timestamp":  "2026-09-14T14:37:13.297014+00:00",
+                                                                                              "ok":  true,
+                                                                                              "latency_ms":  905,
+                                                                                              "state":  "HEALTHY",
+                                                                                              "error_class":  ""
+                                                                                          }
+                                                                                      ],
+                                                                          "last_success":  "2026-09-14T14:37:13.297014+00:00",
+                                                                          "last_health_check":  "2026-09-14T14:37:13.297014+00:00"
+                                                                      },
+                   "openrouter/inclusionai/ling-3.0-flash-sante:free":  {
+                                                                            "provider":  "openrouter",
+                                                                            "model_id":  "inclusionai/ling-3.0-flash-sante:free",
+                                                                            "state":  "UNKNOWN",
+                                                                            "active":  true,
+                                                                            "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                            "current_price":  {
+                                                                                                  "prompt":  "0",
+                                                                                                  "completion":  "0"
+                                                                                              },
+                                                                            "context_length":  262144,
+                                                                            "capabilities":  {
+                                                                                                 "tool_calling":  true,
+                                                                                                 "reasoning":  true,
+                                                                                                 "vision":  false
+                                                                                             },
+                                                                            "availability":  "catalog",
+                                                                            "consecutive_failures":  0,
+                                                                            "history":  [
+
+                                                                                        ],
+                                                                            "last_health_check":  null,
+                                                                            "last_success":  null
+                                                                        },
+                   "openrouter/inclusionai/ling-3.0-flash-vl:free":  {
+                                                                         "provider":  "openrouter",
+                                                                         "model_id":  "inclusionai/ling-3.0-flash-vl:free",
+                                                                         "state":  "UNKNOWN",
+                                                                         "active":  true,
+                                                                         "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                         "current_price":  {
+                                                                                               "prompt":  "0",
+                                                                                               "completion":  "0"
+                                                                                           },
+                                                                         "context_length":  262144,
+                                                                         "capabilities":  {
+                                                                                              "tool_calling":  true,
+                                                                                              "reasoning":  true,
+                                                                                              "vision":  true
+                                                                                          },
+                                                                         "availability":  "catalog",
+                                                                         "consecutive_failures":  0,
+                                                                         "history":  [
+
+                                                                                     ],
+                                                                         "last_health_check":  null,
+                                                                         "last_success":  null
+                                                                     },
+                   "openrouter/liquid/lfm-2.5-2.6b:free":  {
+                                                               "provider":  "openrouter",
+                                                               "model_id":  "liquid/lfm-2.5-2.6b:free",
+                                                               "state":  "UNKNOWN",
+                                                               "active":  true,
+                                                               "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                               "current_price":  {
+                                                                                     "prompt":  "0",
+                                                                                     "completion":  "0"
+                                                                                 },
+                                                               "context_length":  65536,
+                                                               "capabilities":  {
+                                                                                    "tool_calling":  true,
+                                                                                    "reasoning":  true,
+                                                                                    "vision":  false
+                                                                                },
+                                                               "availability":  "catalog",
+                                                               "consecutive_failures":  0,
+                                                               "history":  [
+
+                                                                           ],
+                                                               "last_health_check":  null,
+                                                               "last_success":  null
+                                                           },
+                   "openrouter/nex-agi/nex-n2.5-mini:free":  {
+                                                                 "provider":  "openrouter",
+                                                                 "model_id":  "nex-agi/nex-n2.5-mini:free",
+                                                                 "state":  "UNKNOWN",
+                                                                 "active":  true,
+                                                                 "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                 "current_price":  {
+                                                                                       "prompt":  "0",
+                                                                                       "completion":  "0"
+                                                                                   },
+                                                                 "context_length":  262144,
+                                                                 "capabilities":  {
+                                                                                      "tool_calling":  true,
+                                                                                      "reasoning":  true,
+                                                                                      "vision":  true
+                                                                                  },
+                                                                 "availability":  "catalog",
+                                                                 "consecutive_failures":  0,
+                                                                 "history":  [
+
+                                                                             ],
+                                                                 "last_health_check":  null,
+                                                                 "last_success":  null
+                                                             },
+                   "openrouter/nex-agi/nex-n2.5-pro:free":  {
+                                                                "provider":  "openrouter",
+                                                                "model_id":  "nex-agi/nex-n2.5-pro:free",
+                                                                "state":  "UNKNOWN",
+                                                                "active":  true,
+                                                                "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                "current_price":  {
+                                                                                      "prompt":  "0",
+                                                                                      "completion":  "0"
+                                                                                  },
+                                                                "context_length":  262144,
+                                                                "capabilities":  {
+                                                                                     "tool_calling":  true,
+                                                                                     "reasoning":  true,
+                                                                                     "vision":  true
+                                                                                 },
+                                                                "availability":  "catalog",
+                                                                "consecutive_failures":  0,
+                                                                "history":  [
+
+                                                                            ],
+                                                                "last_health_check":  null,
+                                                                "last_success":  null
+                                                            },
+                   "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free":  {
+                                                                                         "provider":  "openrouter",
+                                                                                         "model_id":  "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+                                                                                         "state":  "UNKNOWN",
+                                                                                         "active":  true,
+                                                                                         "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                                         "current_price":  {
+                                                                                                               "prompt":  "0",
+                                                                                                               "completion":  "0"
+                                                                                                           },
+                                                                                         "context_length":  256000,
+                                                                                         "capabilities":  {
+                                                                                                              "tool_calling":  true,
+                                                                                                              "reasoning":  true,
+                                                                                                              "vision":  true
+                                                                                                          },
+                                                                                         "availability":  "catalog",
+                                                                                         "consecutive_failures":  0,
+                                                                                         "history":  [
+
+                                                                                                     ],
+                                                                                         "last_health_check":  null,
+                                                                                         "last_success":  null
+                                                                                     },
+                   "openrouter/nvidia/nemotron-3-super-120b-a12b:free":  {
+                                                                             "provider":  "openrouter",
+                                                                             "model_id":  "nvidia/nemotron-3-super-120b-a12b:free",
+                                                                             "state":  "UNKNOWN",
+                                                                             "active":  true,
+                                                                             "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                             "current_price":  {
+                                                                                                   "prompt":  "0",
+                                                                                                   "completion":  "0"
+                                                                                               },
+                                                                             "context_length":  262144,
+                                                                             "capabilities":  {
+                                                                                                  "tool_calling":  true,
+                                                                                                  "reasoning":  true,
+                                                                                                  "vision":  false
+                                                                                              },
+                                                                             "availability":  "catalog",
+                                                                             "consecutive_failures":  0,
+                                                                             "history":  [
+
+                                                                                         ],
+                                                                             "last_health_check":  null,
+                                                                             "last_success":  null
+                                                                         },
+                   "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free":  {
+                                                                             "provider":  "openrouter",
+                                                                             "model_id":  "nvidia/nemotron-3-ultra-550b-a55b:free",
+                                                                             "state":  "UNKNOWN",
+                                                                             "active":  true,
+                                                                             "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                             "current_price":  {
+                                                                                                   "prompt":  "0",
+                                                                                                   "completion":  "0"
+                                                                                               },
+                                                                             "context_length":  1000000,
+                                                                             "capabilities":  {
+                                                                                                  "tool_calling":  true,
+                                                                                                  "reasoning":  true,
+                                                                                                  "vision":  false
+                                                                                              },
+                                                                             "availability":  "catalog",
+                                                                             "consecutive_failures":  0,
+                                                                             "history":  [
+
+                                                                                         ],
+                                                                             "last_health_check":  null,
+                                                                             "last_success":  null
+                                                                         },
+                   "openrouter/nvidia/nemotron-3.5-content-safety:free":  {
+                                                                              "provider":  "openrouter",
+                                                                              "model_id":  "nvidia/nemotron-3.5-content-safety:free",
+                                                                              "state":  "UNKNOWN",
+                                                                              "active":  true,
+                                                                              "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                              "current_price":  {
+                                                                                                    "prompt":  "0",
+                                                                                                    "completion":  "0"
+                                                                                                },
+                                                                              "context_length":  128000,
+                                                                              "capabilities":  {
+                                                                                                   "tool_calling":  false,
+                                                                                                   "reasoning":  true,
+                                                                                                   "vision":  true
+                                                                                               },
+                                                                              "availability":  "catalog",
+                                                                              "consecutive_failures":  0,
+                                                                              "history":  [
+
+                                                                                          ],
+                                                                              "last_health_check":  null,
+                                                                              "last_success":  null
+                                                                          },
+                   "openrouter/nvidia/nemotron-3.5-lightning:free":  {
+                                                                         "provider":  "openrouter",
+                                                                         "model_id":  "nvidia/nemotron-3.5-lightning:free",
+                                                                         "state":  "UNKNOWN",
+                                                                         "active":  true,
+                                                                         "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                         "current_price":  {
+                                                                                               "prompt":  "0",
+                                                                                               "completion":  "0"
+                                                                                           },
+                                                                         "context_length":  1000000,
+                                                                         "capabilities":  {
+                                                                                              "tool_calling":  true,
+                                                                                              "reasoning":  true,
+                                                                                              "vision":  false
+                                                                                          },
+                                                                         "availability":  "catalog",
+                                                                         "consecutive_failures":  0,
+                                                                         "history":  [
+
+                                                                                     ],
+                                                                         "last_health_check":  null,
+                                                                         "last_success":  null
+                                                                     },
+                   "openrouter/openrouter/free":  {
+                                                      "provider":  "openrouter",
+                                                      "model_id":  "openrouter/free",
+                                                      "state":  "UNKNOWN",
+                                                      "active":  true,
+                                                      "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                      "current_price":  {
+                                                                            "prompt":  "0",
+                                                                            "completion":  "0"
+                                                                        },
+                                                      "context_length":  200000,
+                                                      "capabilities":  {
+                                                                           "tool_calling":  true,
+                                                                           "reasoning":  true,
+                                                                           "vision":  true
+                                                                       },
+                                                      "availability":  "catalog",
+                                                      "consecutive_failures":  0,
+                                                      "history":  [
+
+                                                                  ],
+                                                      "last_health_check":  null,
+                                                      "last_success":  null
+                                                  },
+                   "openrouter/poolside/laguna-s-2.1:free":  {
+                                                                 "provider":  "openrouter",
+                                                                 "model_id":  "poolside/laguna-s-2.1:free",
+                                                                 "state":  "UNKNOWN",
+                                                                 "active":  true,
+                                                                 "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                 "current_price":  {
+                                                                                       "prompt":  "0",
+                                                                                       "completion":  "0"
+                                                                                   },
+                                                                 "context_length":  262144,
+                                                                 "capabilities":  {
+                                                                                      "tool_calling":  true,
+                                                                                      "reasoning":  true,
+                                                                                      "vision":  false
+                                                                                  },
+                                                                 "availability":  "catalog",
+                                                                 "consecutive_failures":  0,
+                                                                 "history":  [
+
+                                                                             ],
+                                                                 "last_health_check":  null,
+                                                                 "last_success":  null
+                                                             },
+                   "openrouter/poolside/laguna-xs-2.1:free":  {
+                                                                  "provider":  "openrouter",
+                                                                  "model_id":  "poolside/laguna-xs-2.1:free",
+                                                                  "state":  "UNKNOWN",
+                                                                  "active":  true,
+                                                                  "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                  "current_price":  {
+                                                                                        "prompt":  "0",
+                                                                                        "completion":  "0"
+                                                                                    },
+                                                                  "context_length":  262144,
+                                                                  "capabilities":  {
+                                                                                       "tool_calling":  true,
+                                                                                       "reasoning":  true,
+                                                                                       "vision":  false
+                                                                                   },
+                                                                  "availability":  "catalog",
+                                                                  "consecutive_failures":  0,
+                                                                  "history":  [
+
+                                                                              ],
+                                                                  "last_health_check":  null,
+                                                                  "last_success":  null
+                                                              },
+                   "openrouter/thinkingmachines/inkling-small:free":  {
+                                                                          "provider":  "openrouter",
+                                                                          "model_id":  "thinkingmachines/inkling-small:free",
+                                                                          "state":  "UNKNOWN",
+                                                                          "active":  true,
+                                                                          "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                          "current_price":  {
+                                                                                                "prompt":  "0",
+                                                                                                "completion":  "0"
+                                                                                            },
+                                                                          "context_length":  1048576,
+                                                                          "capabilities":  {
+                                                                                               "tool_calling":  true,
+                                                                                               "reasoning":  true,
+                                                                                               "vision":  true
+                                                                                           },
+                                                                          "availability":  "catalog",
+                                                                          "consecutive_failures":  0,
+                                                                          "history":  [
+
+                                                                                      ],
+                                                                          "last_health_check":  null,
+                                                                          "last_success":  null
+                                                                      },
+                   "openrouter/thinkingmachines/inkling:free":  {
+                                                                    "provider":  "openrouter",
+                                                                    "model_id":  "thinkingmachines/inkling:free",
+                                                                    "state":  "UNKNOWN",
+                                                                    "active":  true,
+                                                                    "last_catalog_refresh":  "2026-09-14T18:07:38.501049+00:00",
+                                                                    "current_price":  {
+                                                                                          "prompt":  "0",
+                                                                                          "completion":  "0"
+                                                                                      },
+                                                                    "context_length":  1048576,
+                                                                    "capabilities":  {
+                                                                                         "tool_calling":  true,
+                                                                                         "reasoning":  true,
+                                                                                         "vision":  true
+                                                                                     },
+                                                                    "availability":  "catalog",
+                                                                    "consecutive_failures":  0,
+                                                                    "history":  [
+
+                                                                                ],
+                                                                    "last_health_check":  null,
+                                                                    "last_success":  null
+                                                                },
+                   "gemini/gemini-2.5-flash":  {
+                                                   "last_catalog_refresh":  "2026-09-16T02:42:27.059676+00:00",
+                                                   "provider":  "gemini",
+                                                   "model_id":  "gemini-2.5-flash",
+                                                   "state":  "HEALTHY",
+                                                   "active":  true,
+                                                   "last_health_check":  "2026-09-16T02:59:02.9730572Z",
+                                                   "last_success":  "2026-09-16T02:59:02.9730572Z",
+                                                   "current_price":  {
+                                                                         "prompt":  "0",
+                                                                         "completion":  "0",
+                                                                         "basis":  "official/free health check"
+                                                                     },
+                                                   "context_length":  1048576,
+                                                   "capabilities":  {
+                                                                        "tool_calling":  true,
+                                                                        "reasoning":  true,
+                                                                        "vision":  true
+                                                                    },
+                                                   "availability":  "verified-free-healthcheck",
+                                                   "credential_env":  [
+                                                                          "GOOGLE_API_KEY",
+                                                                          "GEMINI_API_KEY"
+                                                                      ],
+                                                   "consecutive_failures":  0,
+                                                   "history":  [
+                                                                   {
+                                                                       "timestamp":  "2026-09-16T02:59:02.9730572Z",
+                                                                       "ok":  true,
+                                                                       "latency_ms":  null,
+                                                                       "state":  "HEALTHY",
+                                                                       "error_class":  ""
+                                                                   }
+                                                               ]
+                                               },
+                   "huggingface/inclusionAI/Ling-3.0-flash-VL":  {
+                                                                     "last_catalog_refresh":  "2026-09-16T02:42:27.059676+00:00",
+                                                                     "provider":  "huggingface",
+                                                                     "model_id":  "inclusionAI/Ling-3.0-flash-VL",
+                                                                     "state":  "HEALTHY",
+                                                                     "active":  true,
+                                                                     "last_health_check":  "2026-09-16T02:59:02.9730572Z",
+                                                                     "last_success":  "2026-09-16T02:59:02.9730572Z",
+                                                                     "current_price":  {
+                                                                                           "prompt":  "0",
+                                                                                           "completion":  "0",
+                                                                                           "basis":  "official/free health check"
+                                                                                       },
+                                                                     "context_length":  262144,
+                                                                     "capabilities":  {
+                                                                                          "tool_calling":  true,
+                                                                                          "reasoning":  true,
+                                                                                          "vision":  true
+                                                                                      },
+                                                                     "availability":  "verified-free-healthcheck",
+                                                                     "credential_env":  [
+                                                                                            "HF_TOKEN"
+                                                                                        ],
+                                                                     "consecutive_failures":  0,
+                                                                     "history":  [
+                                                                                     {
+                                                                                         "timestamp":  "2026-09-16T02:59:02.9730572Z",
+                                                                                         "ok":  true,
+                                                                                         "latency_ms":  null,
+                                                                                         "state":  "HEALTHY",
+                                                                                         "error_class":  ""
+                                                                                     }
+                                                                                 ]
+                                                                 }
+               },
+    "events":  [
+
+               ]
+}
